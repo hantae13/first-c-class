@@ -28,7 +28,7 @@ public:
         size_ = 0;
         while (init_str[size_] != '\0')
         {
-            size_++; // ++ 연산자 안내
+            size_++; 
         }
 
         // 2. 글자 수가 0이 아니면 메모리 할당
@@ -99,7 +99,7 @@ public:
 
 int main()
 {
-    // 클래스 기본 문법 안내
+    
 
     MyString str1("ABCDE"); // 생성자 이용
     MyString str2("123");
